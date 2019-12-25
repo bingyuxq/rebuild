@@ -36,7 +36,7 @@
 	<table class="table table-bordered table-sm table-hover">
 	<tbody>
         <tr>
-            <th width="30%">Master Service</th>
+            <th width="30%">MasterServer</th>
             <td class="text-danger"><%=Application.serversReady() ? "<span class='text-success'>OK<span>" : "启动失败"%></td>
         </tr>
 		<% for (Status s : ServerStatus.getLastStatus()) { %>
@@ -63,7 +63,7 @@
 	<table class="table table-bordered table-sm table-hover">
 	<tbody>
 		<tr>
-			<th width="30%">App Version</th>
+			<th width="30%">Application Version</th>
 			<td><%=Application.VER%></td>
 		</tr>
 		<tr>

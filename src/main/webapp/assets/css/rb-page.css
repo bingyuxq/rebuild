@@ -3117,6 +3117,10 @@ a.icon-link>.zmdi {
     display: block;
 }
 
+.syscfg.edit .form-control {
+    max-width: 435px;
+}
+
 .announcement-wrapper>div {
     margin: 0;
     border-radius: 0;

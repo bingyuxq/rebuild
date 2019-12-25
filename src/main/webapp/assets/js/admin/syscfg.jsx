@@ -43,7 +43,7 @@ const editMode = function () {
 const post = function (data) {
   for (let k in data) {
     if (!data[k]) {
-      let field = $('td[data-id=' + k + ']').prev().text()
+      let field = $('td[data-id=' + k + ']').prev().prop('firstChild').nodeValue
       RbHighbar.create(field + '不能为空')
       return false
     }
